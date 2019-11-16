@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sample redis project
+  redis:
+    host: redis-server
+    port: 6379
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 9090
